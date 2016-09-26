@@ -1,0 +1,29 @@
+userInput = int(input(print("\nEnter size: ")))
+
+if userInput > 0:              
+    for rows in range(userInput):
+        for spaces in range (userInput - rows) :    
+            print(" ", end="")
+        for stars in range((rows * 2) - 1):
+            print("*", end="")
+        print()
+    
+ #Reverse order logic
+    
+    for rows in range(userInput, 0, -1):        
+        for spaces in range (userInput - rows) :
+            print(" ", end="")
+        for stars in range((rows * 2) - 1):
+            print("*", end="")
+        print()
+        
+#This code takes user input and prints the rhombus
+#However, it does not print the pattern which you had mentioned 
+#I wrote the code in java first and then converted it into python
+#    *
+#   ***
+#  *****
+# *******
+#  *****
+#   ***
+#    *
