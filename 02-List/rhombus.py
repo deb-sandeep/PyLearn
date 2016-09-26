@@ -1,6 +1,6 @@
 import sys
 
-sideLength = int(raw_input( 'Please enter side length of rhonus : ' ))
+sideLength = int(raw_input( 'Please enter side length of rhombus : ' ))
 lines = []
 bottomLines = []
 
