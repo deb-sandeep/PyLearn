@@ -11,7 +11,7 @@ for i in range( sideLength ):
     arr[sideLength-i-1] = '*'
     line += arr
     arr.reverse()
-    line += arr[1:]
+    line += arr[1:] 
     
     lines.append( line )
     bottomLines.insert( 0, line[:] )
