@@ -34,4 +34,6 @@ def sample_loops( nos ):
 user_input = raw_input( "Enter a sequence of numbers: " )
 nos = [ int( item ) for item in user_input.split() ]
 
-sample_loops( nos )
+sample_loops( nos ) # what does this do?
+
+#This code solves a lot of questions i had. 
