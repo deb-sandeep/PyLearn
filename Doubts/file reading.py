@@ -27,3 +27,6 @@ for word,count in counts.items():
 # Prints the word which is most frequently used and the number of times it 
 # appears in the file.        
 print (bigword, bigcount)
+
+# I can understand the code now, thanks to your comments. It'll be great if I can get some more clarity on this over the 
+# phone
