@@ -10,3 +10,7 @@ for i in range(10):
 
     print (x) # how can i print integers?
     # [Sandy] - Not sure if I understood the question. 
+
+# Got it. 
+
+#My doubt was something like, the above code will print random float values. How can i print random integer values?
