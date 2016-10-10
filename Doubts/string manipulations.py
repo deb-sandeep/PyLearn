@@ -10,3 +10,5 @@
 # [Sandy] :)
 str = 'X-DSPAM-Confidence: 0.8475'
 print float(str[str.rfind(':')+1:])
+
+#I'm still confused. Can we take this up on wednesday's call?
