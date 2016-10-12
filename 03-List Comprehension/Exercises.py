@@ -22,4 +22,4 @@ def list_comprehensions():
     
 list_comprehensions()
 
-# still trying to work on columnwise flattening 
+# still trying to work on columnwise flattening. Is it the same as transpose?
