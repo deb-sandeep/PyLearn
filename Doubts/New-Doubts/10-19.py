@@ -10,11 +10,13 @@ def tupules():
         else:
             counts[word] += 1
     
-        list1 = list()
-        for key,val in counts.items():
-            list1.append((val,key))
-            
-        list1.sort(reverse=True)
+    list1 = list()
+    for key,val in counts.items():
+        list1.append((val,key))
         
-        for key,val in list1[:10]:
-            print(key,val)
+    list1.sort(reverse=True)
+    
+    for key,val in list1[:10]:
+        print(key,val)
+
+tupules()
